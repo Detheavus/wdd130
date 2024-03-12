@@ -1,0 +1,57 @@
+:root {
+
+    --primary-color: #A2E8DD;
+    --secondary-color: #627C85;
+    --accent1-color: #779CAB;
+    --accent2-color: #35524A;
+    --accent3-color: #DBF4A7;
+
+    --heading-font: "Bungee", sans-serif;
+    --paragraph-font: "Titillium Web", sans-serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color: var(--accent2-color);
+    --nav--hover-link-color:var(--accent3-color);
+    --nav-hover-background-color:var(--accent1-color);
+}
+
+main {
+    max-width: 920px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+}
+
+p {
+    padding: 25px;
+    font-family: var(--heading-font);
+    color: var(--secondary-color)
+
+}
+
+div .Hero{
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 18px;
+    border-top: 2px solid #000;
+    text-align: center;
+}
+
+nav img {
+    width: 5%;
+    height: 5%;
+}
