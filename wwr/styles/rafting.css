@@ -38,14 +38,14 @@ header {
 
 article, img .hero {
     position: absolute;
-    bottom: 265px;
+    bottom: 385px;
     left: 600px;
     font-size: larger;
 }
 
 h1 {
     position: absolute;
-    bottom: 265px;
+    bottom: 385px;
     left: 40px;
 }
 
