@@ -24,11 +24,8 @@ header {
     background-color: var(--secondary-color);
 }
 
-h1, article .hero {
-    position: absolute;
-}
 
-.hero {
+.hero div{
     position: relative;
 }
 
@@ -39,6 +36,18 @@ h1, article .hero {
 
 }
 
+article, img .hero {
+    position: absolute;
+    bottom: 265px;
+    left: 600px;
+    font-size: larger;
+}
+
+h1 {
+    position: absolute;
+    bottom: 265px;
+    left: 40px;
+}
 
 p {
     padding: 15px;
