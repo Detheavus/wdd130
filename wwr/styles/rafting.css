@@ -15,43 +15,72 @@
     --nav-hover-background-color:var(--accent1-color);
 }
 
-main {
-    max-width: 920px;
-}
 
-header {
-    padding: 20px;
+body {
+    width: 920px;
     background-color: var(--primary-color);
+    
 }
-
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color)
-}
-
-p {
-    padding: 25px;
-    font-family: var(--heading-font);
-    color: var(--secondary-color)
+.Hero {
+    
 
 }
-
-div .Hero{
-    position: relative;
+h1 {
+    position: absolute;
 }
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+article p {
+    background-color: var(--secondary-color);
+    opacity: 85%;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
 footer {
-    margin-top: 18px;
+
+    background-color: var(--secondary-color);
     border-top: 2px solid #000;
     text-align: center;
+    font-size: larger;
+}
+
+a {
+    margin-right: 12px;
+}
+
+nav {
+    font-family: var(--paragraph-font);
+    font-size: large;
 }
 
 nav img {
-    width: 5%;
-    height: 5%;
+    width: 8%;
+    height: 8%;
+    filter: drop-shadow(8px 8px 8px #000000);
+    -webkit-filter: drop-shadow(8px 8px 8px #000000);
 }
