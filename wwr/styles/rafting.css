@@ -58,9 +58,40 @@ header {
     margin-left: 36rem;
     margin-top: 2rem;
     flex-direction: row-reverse;
+}
 
+
+.history {
+    display: flex;
+    grid-template-columns: 1fr 3fr;
+    background-color: hsl(195, 15%, 45%);
+    /* background-color: #0f05; */
+    background-color: hsla(195, 15%, 45%, 0.4);
+}
+
+.Adventure {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
 
 }
+
+.adventure1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+figure {
+    background-color: #DBF4A7;
+    display: flex;
+    flex-flow: column;
+    border: thick #35524A solid;
+    max-width: 180px;
+    text-align: center;
+}
+
 
 
 p {
@@ -71,6 +102,10 @@ p {
 
 h1, h2 {
     font-family: var(--heading-font);
+}
+
+h2 {
+    text-align: center;
 }
 
 footer {
@@ -103,8 +138,3 @@ nav img {
     -webkit-filter: drop-shadow(8px 8px 8px #000000);
 }
 
-
-.adventure {
-    display: flex;
-
-}
