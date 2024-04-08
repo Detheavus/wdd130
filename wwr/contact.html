@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="styles/rafting.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="wwr/styles/rafting.css"
->        <style>
+        <link rel="stylesheet" href="wwr/styles/contact.css">
+        <style>
             @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap')
         </style>
     </head>
@@ -27,7 +27,70 @@
     </header>
 
     <main>
-       
+       <h1>Contact US</h1>
+       <p>Amazing Company Information</p>
+       <li>Amazing Whitewater Rafting Company</li>
+       <li>3702 E Provo Canyon Road, Provo, UT 84604</li>
+       <li>inbox@awwr.com</li>
+
+       <div class ="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7232.041203903548!2d-111.59467941018791!3d40.349028038501004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhitewater%20rafting!5e0!3m2!1sen!2sus!4v1712594061597!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+
+        <h2>
+            <div class="grid-container">
+            <div><p>Four of Our Amazing Employees:</p></div>
+            <div class="one"><p>This is one of our Great Guys</p></div>
+            <div class="two"><img src="images/emp_img_1.jpg" alt="Great Guy"></div>
+            <div class="three"><img src="images/emp_img_2.jpg" alt="Adventure Dude"></div>
+            <div class="four"><p>This is our most adventurous dude.</p></div>
+            <div class="five"><p>This woman is consistently our happiest guide.</p></div>
+            <div class="six"><img src="images/emp_img_3.jpg" alt="Elated Woman"></div>
+            <div class="seven"><img  src="images/emp_img_4.jpg" alt="Young Buck"></div>
+            <div class="eight"><p>This young man practically grew up on the river.</p></div>
+            </div>
+        </h2>
+
+       <h3>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="1.">Your Name: </label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Your Email Address:</label>
+                        <input typer="email" id="useremail" name="useremail">
+                    </div>
+                    <fieldset>
+                        <legend>Your Message</legend>
+                        <label for="purpose">What type of message do you have?</label>
+                        <div class="form-item column1">
+                           <input type="radio" id="general" name="inquiry" value="general" checked />
+                           <label for="inquiry">General inquiry</label>
+                        </div>
+                        <div class="form-item column1">
+                            <input type="radio" id="reservation" name="inquiry" value="general" />
+                            <label for="inquiry">Reservation Question</label>
+                         </div>
+                         <div class="form-item column1">
+                            <input type="radio" id="website" name="suggestion" value="general" />
+                            <label for="suggestion">Website Suggestion</label>
+                         </div>
+
+                        <div class="form-item column1">
+                          <textarea id="feedback" name="feedback" rows="3" placeholder="Your Message goes here...."></textarea>
+                        </div>
+                        <div>
+                        <label><input type="checkbox" id="subscribe" name="subscribe" for="subscribe" checked/>Subscribe me to the monthly newsletter</label>
+                        </div>
+                        <button type="submit">Submit Question or Feedback</button>        
+                    </fieldset>
+                </fieldset>
+            </form>
+       </h3>
+
 
     </main>
 
