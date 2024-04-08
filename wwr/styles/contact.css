@@ -44,9 +44,9 @@ h1, h2 {
 
 .grid-container {
     display: grid;
+    align-items: center;
     grid-template-columns: repeat(4 1fr);
     grid-auto-rows: 250px;
-
 }
 
 .one {
