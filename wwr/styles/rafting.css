@@ -4,7 +4,7 @@
     --secondary-color: #627C85;
     --accent1-color: #779CAB;
     --accent2-color: #35524A;
-    --accent3-color: #DBF4A7;
+    --accent3-color: rgb(219, 244, 167);
 
     --heading-font: "Bungee", sans-serif;
     --paragraph-font: "Titillium Web", sans-serif;
@@ -13,6 +13,10 @@
     --nav-link-color: var(--accent2-color);
     --nav--hover-link-color:var(--accent3-color);
     --nav-hover-background-color:var(--accent1-color);
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -98,6 +102,7 @@ p {
     padding: 15px;
     font-family: var(--paragraph-font);
     font-weight: 600;
+    text-align: center;
 }
 
 h1, h2 {
@@ -235,3 +240,68 @@ button {
 button :hover {
     background-color: aquamarine;
 }
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+    background-color: rgb(198 217 255 / 45%);
+}
+
+.box1 {
+    display: grid;
+    border: 2px solid var(--accent2-color);
+    
+}
+
+.box2 {
+    display: grid;
+    border: 2px solid var(--accent2-color);
+}
+
+.box3 {
+    display: grid;
+    border: 2px solid var(--accent2-color);
+}
+
+
+table {
+    display: grid;
+    border-collapse: collapse;
+    min-width: 100%;
+    grid-template-columns:
+    minmax(230px, 1fr)
+    minmax(230px, 1fr)
+    minmax(230px, 1fr)
+    minmax(230px, 1fr);
+
+    font-size: 1rem;
+    font-family: var(--paragraph-font);
+}
+
+thead, tbody, tr {
+    display: contents;
+    border: 2px solid var(--accent2-color);
+    padding: 10px 20px;
+}
+
+th {
+  background-color: var(--primary-color);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: var(--accent3-color);
+}
+
+tr:nth-child(odd) td {
+  background-color: var(--accent1-color);
+}
+
+caption {
+  padding: 10px;
+}
+
